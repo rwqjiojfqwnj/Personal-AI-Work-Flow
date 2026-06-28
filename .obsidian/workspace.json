@@ -6,7 +6,6 @@
       {
         "id": "06f48265cffcf584",
         "type": "tabs",
-        "dimension": 74.58053691275168,
         "children": [
           {
             "id": "68766f98bbfe47fd",
@@ -34,23 +33,6 @@
               },
               "icon": "lucide-file",
               "title": "comet(superpowers+openspec)"
-            }
-          }
-        ]
-      },
-      {
-        "id": "d0bc93d1824052e2",
-        "type": "tabs",
-        "dimension": 25.419463087248324,
-        "children": [
-          {
-            "id": "6b5992909e9d1c8c",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "关系图谱"
             }
           }
         ]
@@ -128,7 +110,7 @@
               "state": {
                 "file": "tool/OrbitOS.md",
                 "collapseAll": false,
-                "extraContext": false,
+                "extraContext": true,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
@@ -201,8 +183,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -217,7 +198,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "68766f98bbfe47fd",
+  "active": "43ba3c9809ab6783",
   "lastOpenFiles": [
     "attachment/50_资源/Screenshot.png",
     "tool/OrbitOS.md",
