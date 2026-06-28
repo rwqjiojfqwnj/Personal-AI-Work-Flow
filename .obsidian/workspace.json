@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "tool/OrbitOS.md",
-                "mode": "source",
+                "file": "tool/本地知识库搭建.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "OrbitOS"
+              "title": "本地知识库搭建"
             }
           },
           {
@@ -108,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "tool/OrbitOS.md",
+                "file": "tool/本地知识库搭建.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -118,7 +118,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "OrbitOS 的反向链接列表"
+              "title": "本地知识库搭建 的反向链接列表"
             }
           },
           {
@@ -127,12 +127,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "tool/OrbitOS.md",
+                "file": "tool/本地知识库搭建.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "OrbitOS 的出链列表"
+              "title": "本地知识库搭建 的出链列表"
             }
           },
           {
@@ -170,13 +170,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "tool/OrbitOS.md",
+                "file": "tool/本地知识库搭建.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "OrbitOS 的大纲"
+              "title": "本地知识库搭建 的大纲"
             }
           }
         ]
@@ -198,10 +198,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "43ba3c9809ab6783",
+  "active": "68766f98bbfe47fd",
   "lastOpenFiles": [
-    "attachment/50_资源/Screenshot.png",
     "tool/OrbitOS.md",
+    "attachment/50_资源/Screenshot.png",
     "skill/comet(superpowers+openspec).md",
     "tool/转换md文件工具.md",
     "attachment/50_资源",
