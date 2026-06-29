@@ -20,6 +20,9 @@ pip install "markitdown[all]" -i https://pypi.tuna.tsinghua.edu.cn/simple
 ## 安装验证
 ```
 markitdown --version
+
+# xy工作机使用方式
+python -m markitdown --version
 ```
 
 ## 使用方式
@@ -29,6 +32,46 @@ markitdown D:\文档.pdf -o D:\输出.md
 
 # 查看帮助
 markitdown --help
+
+# xy工作机使用方式
+python -m markitdown D:\文档.pdf -o D:\输出.md
+```
+
+批量转换，新建一个convert.bat文件，写入以下内容，注意替换INPUT_DIR和OUTPUT_DIR为实际地址
+```
+@echo off
+chcp 65001 >nul
+set PYTHONIOENCODING=utf-8
+set INPUT_DIR=docs
+set OUTPUT_DIR=prd
+
+echo ========================================
+echo 开始批量转换...
+echo ========================================
+
+if not exist "%OUTPUT_DIR%" mkdir "%OUTPUT_DIR%"
+
+for %%f in ("%INPUT_DIR%\*.pdf" "%INPUT_DIR%\*.docx" "%INPUT_DIR%\*.pptx" "%INPUT_DIR%\*.xlsx") do (
+    if exist "%%f" (
+        echo.
+        echo 正在转换: %%~nxf
+        echo 命令: python -m markitdown "%%f" ^> "%OUTPUT_DIR%\%%~nf.md"
+        python -m markitdown "%%f" > "%OUTPUT_DIR%\%%~nf.md"
+        if errorlevel 1 (
+            echo ❌ 转换失败: %%~nxf
+        ) else (
+            echo ✅ 已保存至: %OUTPUT_DIR%\%%~nf.md
+        )
+    ) else (
+        echo 未找到匹配的文件
+    )
+)
+
+echo.
+echo ========================================
+echo 🎉 处理完成！
+echo ========================================
+pause
 ```
 
 # 二、文捕

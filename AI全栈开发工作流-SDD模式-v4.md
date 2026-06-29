@@ -1,4 +1,4 @@
-﻿# AI 全栈开发工作流（SDD 模式）— 小团队通用版 v4
+# AI 全栈开发工作流（SDD 模式）— 小团队通用版 v4
 
 > **适用场景**：Vue 3 + TypeScript + Java / Spring Boot 前后端分离，小团队协作（2-8 人）或一人全栈  
 > **核心目标**：兼顾企业开发中的通用性、实用性、可恢复性、可验收性  
@@ -41,6 +41,14 @@
 ## 3. 文档结构
 
 建议项目中维护如下结构：
+
+```
+# 在 project/ 目录下
+mkdir project
+cd project
+
+mkdir -p frontend backend docs openspec .codex
+```
 
 ```text
 project/
