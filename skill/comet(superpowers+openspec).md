@@ -530,32 +530,13 @@ Benchmark 核心结论：
 
 ## Contributors
 
-<a href="https://github.com/rpamis/comet/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=rpamis/comet&max=999&columns=12&anon=1" />
-</a>
+
 
 ## License
 
 [MIT](LICENSE)
 
-## 社区交流
 
-<table align="center">
-  <tr>
-    <td align="center" width="180">
-      <img src="https://github.com/rpamis/comet/blob/master/img/douyin.png" width="120" height="120"><br>
-      <b>抖音群（推荐）</b>
-    </td>
-    <td align="center" width="180">
-      <img src="https://github.com/rpamis/comet/blob/master/img/wechat.jpg" width="120" height="120"><br>
-      <b>微信群</b>
-    </td>
-    <td align="center" width="180">
-      <img src="https://github.com/rpamis/comet/blob/master/img/qq.jpg" width="120" height="120"><br>
-      <b>QQ群</b>
-    </td>
-  </tr>
-</table>
 
 ## 友情链接
 

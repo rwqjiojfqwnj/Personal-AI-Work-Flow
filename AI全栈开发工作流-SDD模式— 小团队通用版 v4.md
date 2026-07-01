@@ -21,14 +21,14 @@
 
 ### 2.1 工具职责分工
 
-| 工具 | 定位 | 负责什么 | 不负责什么 |
-|------|------|----------|------------|
-| OpenSpec | WHAT | 需求变更、proposal、spec、tasks、归档 | 技术实现细节 |
-| Superpowers | HOW | brainstorming、design、plan、TDD、review、subagent | 需求事实源管理 |
-| Comet | 阶段编排 | open → design → build → verify → archive 的状态流转与守护 | 业务规则本身 |
-| codegraph | 分析层 | 理解代码结构、依赖关系、影响范围、diff 分析 | 需求事实源、契约事实源 |
-| Impeccable | 前端设计质量层 | UI/UX 设计、样式审查、视觉迭代、前端反模式检测 | 全栈研发主流程 |
-| Element Plus | 前端基础设施 | 稳定的 Vue 组件能力、表单表格弹窗等基础控件 | 项目流程治理 |
+| 工具           | 定位      | 负责什么                                              | 不负责什么       |
+| ------------ | ------- | ------------------------------------------------- | ----------- |
+| OpenSpec     | WHAT    | 需求变更、proposal、spec、tasks、归档                       | 技术实现细节      |
+| Superpowers  | HOW     | brainstorming、design、plan、TDD、review、subagent     | 需求事实源管理     |
+| Comet        | 阶段编排    | open → design → build → verify → archive 的状态流转与守护 | 业务规则本身      |
+| codegraph    | 分析层     | 理解代码结构、依赖关系、影响范围、diff 分析                          | 需求事实源、契约事实源 |
+| Impeccable   | 前端设计质量层 | UI/UX 设计、样式审查、视觉迭代、前端反模式检测                        | 全栈研发主流程     |
+| Element Plus | 前端基础设施  | 稳定的 Vue 组件能力、表单表格弹窗等基础控件                          | 项目流程治理      |
 
 ### 2.2 企业项目中的推荐组合
 
